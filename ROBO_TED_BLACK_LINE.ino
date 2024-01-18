@@ -9,7 +9,7 @@
 
 //Line Follow Include
 #include <DFMobile.h>
-DFMobile Robot(4, 5, 7, 6);
+DFMobile Robot(4, 5, 7, 6); //Setting motor pins on Romeo V2 Board
 int RightValue;
 int MiddleValue;
 int LeftValue;
@@ -28,7 +28,7 @@ DateTime now;
 //LCD Include
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
-LiquidCrystal_I2C lcd(0x27, 16, 2);  // set the LCD address to 0x20 for a 16 chars and 2 line display
+LiquidCrystal_I2C lcd(0x27, 16, 2);  // set the LCD address to 0x27 for a 16 chars and 2 line display
 
 //LED
 #include <Adafruit_NeoPixel.h>
